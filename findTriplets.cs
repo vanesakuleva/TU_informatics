@@ -8,9 +8,9 @@ namespace findTriplets
         private static void FindTriplets(int [] nums)
         {
 
-            for (int i = 0; i < nums.Length; i++)
+            for (int i = 0; i < nums.Length-2; i++)
             {
-                for (int j = i + 1; j < nums.Length; j++)
+                for (int j = i + 1; j < nums.Length-1; j++)
                 {
                     for (int k = j + 1; k < nums.Length; k++)
                     {
